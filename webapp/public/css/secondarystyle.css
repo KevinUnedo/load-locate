@@ -1,0 +1,25 @@
+:root {
+    --primary: rgb(44, 116, 179);
+    --bg: whitesmoke;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bg);
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    /* height: 200vh; */
+    margin: 0;
+}
+
